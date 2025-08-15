@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News and Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>News and Weather Dashboard</h1>
+    </header>
+
+    <section id="news-slider" class="slider">
+        <div class="slides" id="newsSlides"></div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </section>
+
+    <section id="weather">
+        <h2>Current Weather</h2>
+        <div id="weatherInfo"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 News and Weather Dashboard</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
